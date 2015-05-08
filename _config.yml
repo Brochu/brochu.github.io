@@ -6,9 +6,10 @@
 name: Alexandre Brochu
 
 # Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+description: A game programmer from Gatineau (Quebec)
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
+# TODO: Setup gravatar ...
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 
 #
@@ -18,15 +19,15 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/je
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
+  email: alexbrochu1@gmail.com
   facebook:
   flickr:
-  github: barryclark/jekyll-now
+  github: Brochu (Alexandre Brochu)
   instagram:
-  linkedin:
+  linkedin: Alexandre Brochu
   pinterest:
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
-  twitter: jekyllrb
+  twitter:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
