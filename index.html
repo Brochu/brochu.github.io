@@ -2,7 +2,9 @@
 layout: default
 ---
 <div class="shortPres">
-    <p>Hi, my name is Alexandre Brochu. I have been studying computer programming / computer science since high school and have been interested in game development for some time now. I currently work on some game project on my own while seeking for a job in the domain. Here's a small website for me to put up information about those projects so people can have an idea of what I am working on. Demos, screenshots and download links should be available for you to see or try the different games.</p>
+    <p>Hi, my name is Alexandre Brochu. I have been studying computer programming / computer science since high school and have been interested in game development for some time now. I currently work on some game project on my own while seeking for a job in the domain.</p>
+
+    <p>Here's a small website for me to put up information about those projects so people can have an idea of what I am working on. Demos, screenshots and download links should be available for you to see or try the different games.</p>
 
     <p>For more info about me, please visite the <a href="/about">about page</a></p>
 
@@ -12,7 +14,7 @@ layout: default
 <div class="projects">
   {% for post in site.posts %}
     <article class="project">
-        <i class="fa fa-minus-square"></i><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        <i class="fa fa-minus-square"></i>&nbsp;&nbsp;<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </article>
   {% endfor %}
 </div>
