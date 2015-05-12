@@ -7,21 +7,12 @@ layout: default
     <p>For more info about me, please visite the <a href="/about">about page</a></p>
 
     <p>Here is a list of what I am working on lately : </p>
-    <i class="fa fa-arrows"></i>
-    <hr />
 </div>
 
-<div class="posts">
+<div class="projects">
   {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    <article class="project">
+        <i class="fa fa-minus-square"></i><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </article>
   {% endfor %}
 </div>
