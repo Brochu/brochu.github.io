@@ -18,8 +18,10 @@ layout: default
     </article>
 
     <p>testing : {{post.extern}}</p>
-    <p>testing : {{post.tools}}</p>
-    <p>testing : {{post.lang}}</p>
+    <p>testing : <i class="{{post.lang}}"></i></p>
+    {% for tool in post.tools %}
+        <p>womp womp : {{tool}}</p>
+    {% endfor %}
   {% endfor %}
 </div>
 
