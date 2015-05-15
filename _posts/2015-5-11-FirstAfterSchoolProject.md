@@ -1,6 +1,16 @@
 ---
 layout: project
+
+status: present
 title: My First After-School Project
+
+type: game
+source: personnal
+tools:
+    - HTML5
+    - Chrome
+    - Firefox
+lang: icon-javascript
 
 extern: http://google.ca
 ---

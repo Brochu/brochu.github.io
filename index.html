@@ -16,12 +16,6 @@ layout: default
     <article class="project">
         <i class="fa fa-minus-square"></i>&nbsp;&nbsp;<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </article>
-
-    <p>testing : {{post.extern}}</p>
-    <p>testing : <i class="{{post.lang}}" style="font-size:50px;"></i></p>
-    {% for tool in post.tools %}
-        <p>womp womp : {{tool}}</p>
-    {% endfor %}
   {% endfor %}
 </div>
 
