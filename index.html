@@ -15,17 +15,13 @@ layout: default
   {% for post in site.posts %}
     {% if post.toShow != false %}
       <article class="project">
-        <table style="padding: 5px;">
-          <tr>
-            <td><i class="fa fa-minus-square"></i>&nbsp;<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></td>
-            <td><i class="fa {{post.type}} fa-3x"></i></td>
-            <td><i class="fa {{post.source}} fa-3x"></i></td>
-            <td>{{post.tools}}</td>
+            <i class="fa fa-minus-square"></i>&nbsp;<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            &nbsp;-&nbsp;<i class="fa {{post.type}} fa-3x"></i>
+            &nbsp;<i class="fa {{post.source}} fa-3x"></i>
+            <!-- <td>{{post.tools}}</td>
             <td>{{post.lang}}</td>
             <td>{{post.description}}</td>
-            <td>{{post.images}}</td>
-          </tr>
-        </table>
+            <td>{{post.images}}</td> -->
       </article>
     {% endif %}
   {% endfor %}
