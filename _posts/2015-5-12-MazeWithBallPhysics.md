@@ -3,10 +3,10 @@ layout: project
 status: present
 title: Maze with Ball Physics
 
-type: game
+type: fa-gamepad
 typeTitle: game
 
-source: personnal
+source: fa-male
 sourceTitle: personal project
 
 tools:
