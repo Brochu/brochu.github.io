@@ -10,8 +10,8 @@ source: personnal
 sourceTitle: personal project
 
 tools:
-    - Unity 3D
-    - Visual Studio
+    - unityIcon.svg
+    - VS2013Icon.svg
 lang: icon-csharp
 langTitle: C#
 
