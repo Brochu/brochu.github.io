@@ -10,9 +10,9 @@ source: fa-male
 sourceTitle: personal project
 
 tools:
-    - HTML5
-    - Chrome
-    - Firefox
+    - HTML5Icon.svg
+    - ChromeIcon.svg
+    - FirefoxIcon.svg
 lang: icon-javascript
 langTitle: javasript
 
