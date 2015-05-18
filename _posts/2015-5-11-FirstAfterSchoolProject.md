@@ -4,12 +4,18 @@ status: present
 title: My First After-School Project
 
 type: fa-gamepad
+typeTitle: game
+
 source: fa-male
+sourceTitle: personal project
+
 tools:
     - HTML5
     - Chrome
     - Firefox
 lang: icon-javascript
+langTitle: javasript
+
 description: asdf
 images:
     - img1

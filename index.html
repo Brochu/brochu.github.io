@@ -16,8 +16,10 @@ layout: default
     {% if post.toShow != false %}
       <article class="project">
         <i class="fa fa-minus-square"></i>&nbsp;<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-        &nbsp;-&nbsp;<i class="fa {{post.type}} fa-3x"></i>
-        &nbsp;<i class="fa {{post.source}} fa-3x"></i>
+        &nbsp;&nbsp;<i class="fa {{post.type}} fa-2x" title="{{post.typeTitle}}"></i>
+        &nbsp;<i class="fa {{post.source}} fa-2x" title="{{post.sourceTitle}}"></i>
+        &nbsp;(tools)
+        &nbsp;<i class="fa {{post.lang}} fa-2x" title="{{post.langTitle}}"></i>
       </article>
     {% endif %}
   {% endfor %}
