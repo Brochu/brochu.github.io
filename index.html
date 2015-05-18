@@ -14,7 +14,16 @@ layout: default
 <div class="projects">
   {% for post in site.posts %}
     <article class="project">
-        <i class="fa fa-minus-square"></i>&nbsp;&nbsp;<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        <i class="fa fa-minus-square"></i>&nbsp;<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+
+        <p>
+        {{post.type}}
+        {{post.source}}
+        {{post.tools}}
+        {{post.lang}}
+        {{post.description}}
+        {{post.images}}
+        </p>
     </article>
   {% endfor %}
 </div>
