@@ -15,13 +15,9 @@ layout: default
   {% for post in site.posts %}
     {% if post.toShow != false %}
       <article class="project">
-            <i class="fa fa-minus-square"></i>&nbsp;<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-            &nbsp;-&nbsp;<i class="fa {{post.type}} fa-3x"></i>
-            &nbsp;<i class="fa {{post.source}} fa-3x"></i>
-            <!-- <td>{{post.tools}}</td>
-            <td>{{post.lang}}</td>
-            <td>{{post.description}}</td>
-            <td>{{post.images}}</td> -->
+        <i class="fa fa-minus-square"></i>&nbsp;<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        &nbsp;-&nbsp;<i class="fa {{post.type}} fa-3x"></i>
+        &nbsp;<i class="fa {{post.source}} fa-3x"></i>
       </article>
     {% endif %}
   {% endfor %}
