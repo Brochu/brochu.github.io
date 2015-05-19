@@ -1,6 +1,7 @@
 ---
 layout: project
-status: projectCurrent
+class: Current
+status: 2
 title: Maze with Ball Physics
 
 type: fa-gamepad

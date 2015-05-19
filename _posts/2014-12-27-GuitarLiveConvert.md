@@ -1,6 +1,7 @@
 ---
 layout: project
-status: projectPast
+class: Past
+status: 1
 title: Guitar Live Convert
 
 type: fa-cogs

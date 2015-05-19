@@ -1,6 +1,7 @@
 ---
 layout: project
-status: projectFuture
+class: Future
+status: 3
 title: Skinning Algorithm Demo
 
 type: fa-cogs

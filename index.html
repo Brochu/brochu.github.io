@@ -13,7 +13,7 @@ layout: default
 
 <div class="projects">
   {% assign projects = site.posts | sort:"status" %}
-  {% for post in projects reversed %}
+  {% for post in projects %}
     {% if post.toShow != false %}
     <article class="{{post.status}}">
         <span class="title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span>

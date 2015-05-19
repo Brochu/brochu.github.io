@@ -1,6 +1,7 @@
 ---
 layout: project
-status: projectCurrent
+class: Current
+status: 2
 title: My First After-School Project
 
 type: fa-gamepad
