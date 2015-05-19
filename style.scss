@@ -289,7 +289,7 @@ footer {
 
 .tag > img {
   position: relative;
-  top: 5px;
+  top: 6px;
   width: 32px;
   margin: 0 5px;
 }
@@ -302,20 +302,19 @@ footer {
 }
 
 .projectPast {
-  background-color: lime;
+  background-color: #9F9;
 }
 
 .projectCurrent {
-  background-color: orange;
+  background-color: #F93;
 }
 
 .projectFuture {
-  background-color: pink;
+  background-color: #F99;
 }
 
 .projectPast, .projectCurrent, .projectFuture {
-  border-bottom: 1px solid lightgrey;
-  border-top: 1px solid grey;
+  border-bottom: 1px solid black;
 }
 
 .title {
