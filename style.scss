@@ -288,15 +288,14 @@ footer {
 }
 
 .tag > img {
-/*  margin-top: 5px; */
   position: relative;
+  top: 5px;
+  width: 32px;
+  margin: 0 5px;
 }
 
 .tag {
   text-align: center;
-  width: 32px;
-  margin: 0 5px;
-  vertical-align: center;
 }
 
 .tags {
