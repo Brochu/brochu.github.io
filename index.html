@@ -16,13 +16,18 @@ layout: default
     {% if post.toShow != false %}
     <article class="{{post.status}}">
         <span class="title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span>
-        &nbsp;&nbsp;<i class="fa {{post.type}} fa-2x" title="{{post.typeTitle}}"></i>
-        &nbsp;<i class="fa {{post.source}} fa-2x" title="{{post.sourceTitle}}"></i>
+
+        <div class="tags">
+        <span class="tag"><i class="fa {{post.type}} fa-2x" title="{{post.typeTitle}}"></i></span>
+        <span class="tag"><i class="fa {{post.source}} fa-2x" title="{{post.sourceTitle}}"></i></span>
+        <span class="tag"><i class="fa {{post.lang}} fa-2x" title="{{post.langTitle}}"></i></span>
 
         {% for tool in post.tools %}
-        &nbsp;<img class="tag" src="{{site.baseurl}}/images/{{tool[1]}}" title="{{tool[0]}}" />
+        <span class="tag"><img src="{{site.baseurl}}/images/{{tool[1]}}" title="{{tool[0]}}" /></span>
         {% endfor %}
-        &nbsp;<i class="fa {{post.lang}} fa-2x" title="{{post.langTitle}}"></i>
+        </div>
+
+        <div class="cb"></div>
       </article>
     {% endif %}
   {% endfor %}

@@ -283,10 +283,23 @@ footer {
   text-align: center;
 }
 
+.tag > i {
+  width: 40px;
+}
+
+.tag > img {
+/*  margin-top: 5px; */
+  position: relative;
+}
+
 .tag {
+  text-align: center;
   width: 32px;
-  vertical-align: bottom;
-  padding-bottom: 3px;
+  margin: 0 5px;
+  vertical-align: center;
+}
+
+.tags {
 }
 
 .projectPast {
@@ -301,8 +314,19 @@ footer {
   background-color: pink;
 }
 
+.projectPast, .projectCurrent, .projectFuture {
+  border-bottom: 1px solid lightgrey;
+  border-top: 1px solid grey;
+}
+
 .title {
-  width: 50%;
+  display: block;
+  float: left;
+  width: 150px;
+}
+
+.cb {
+  clear: both;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
