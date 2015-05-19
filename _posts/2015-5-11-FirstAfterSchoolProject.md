@@ -1,26 +1,27 @@
 ---
 layout: project
-status: present
+status: projectCurrent
 title: My First After-School Project
 
 type: fa-gamepad
-typeTitle: game
+typeTitle: Game
 
 source: fa-male
-sourceTitle: personal project
+sourceTitle: Personal Project
 
 tools:
-    - HTML5Icon.svg
-    - ChromeIcon.svg
-    - FirefoxIcon.svg
+    HTML5: HTML5Icon.svg
+    Chrome: ChromeIcon.svg
+    Firefox: FirefoxIcon.svg
+
 lang: icon-javascript
-langTitle: javasript
+langTitle: Javasript
 
 description: asdf
 images:
-    - img1
-    - img2
-    - img3
+    img1
+    img2
+    img3
 
 extern: http://google.ca
 ---

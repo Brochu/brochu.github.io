@@ -1,23 +1,24 @@
 ---
 layout: project
-status: present
+status: projectCurrent
 title: Maze with Ball Physics
 
 type: fa-gamepad
-typeTitle: game
+typeTitle: Game
 
 source: fa-male
-sourceTitle: personal project
+sourceTitle: Personal Project
 
 tools:
-    - unityIcon.svg
-    - VS2013Icon.svg
+    Unity 3D: unityIcon.svg
+    Visual Studio: VS2013Icon.svg
+
 lang: icon-csharp
 langTitle: C#
 
 description: asdf
 images: 
-    - img1
-    - img2
-    - img3
+    img1
+    img2
+    img3
 ---

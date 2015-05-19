@@ -286,6 +286,23 @@ footer {
 .tag {
   width: 32px;
   vertical-align: bottom;
+  padding-bottom: 3px;
+}
+
+.projectPast {
+  background-color: lime;
+}
+
+.projectCurrent {
+  background-color: orange;
+}
+
+.projectFuture {
+  background-color: pink;
+}
+
+.title {
+  width: 50%;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

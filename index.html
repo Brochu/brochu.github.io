@@ -14,13 +14,13 @@ layout: default
 <div class="projects">
   {% for post in site.posts %}
     {% if post.toShow != false %}
-      <article class="project">
-        <i class="fa fa-minus-square"></i>&nbsp;<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    <article class="{{post.status}}">
+        <span class="title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span>
         &nbsp;&nbsp;<i class="fa {{post.type}} fa-2x" title="{{post.typeTitle}}"></i>
         &nbsp;<i class="fa {{post.source}} fa-2x" title="{{post.sourceTitle}}"></i>
 
         {% for tool in post.tools %}
-        &nbsp;<img class="tag" src="{{site.baseurl}}/images/{{tool}}" />
+        &nbsp;<img class="tag" src="{{site.baseurl}}/images/{{tool[1]}}" title="{{tool[0]}}" />
         {% endfor %}
         &nbsp;<i class="fa {{post.lang}} fa-2x" title="{{post.langTitle}}"></i>
       </article>
