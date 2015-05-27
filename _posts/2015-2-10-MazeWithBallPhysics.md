@@ -22,7 +22,6 @@ images:
     img1
     img2
     img3
-
-extern: /docs/chromeIcon.svg
-externTxt: Download demo
 ---
+
+[screenshot]({{site.url}}/downloads/test.txt)
