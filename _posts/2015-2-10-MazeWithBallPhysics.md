@@ -22,4 +22,7 @@ images:
     img1
     img2
     img3
+
+extern: /images/chromeIcon.svg
+externTxt: Download demo
 ---
