@@ -24,4 +24,4 @@ images:
     img3
 ---
 
-[screenshot]({{site.url}}/downloads/test.txt)
+[screenshot]({{site.baseurl}}/downloads/test.txt)
