@@ -12,4 +12,4 @@ All me contact information can be found at the bottom of this page (email addres
 
 ### Curriculum Vitae
 
-Here a [link](/docs/cv_AlexandreBrochu.pdf) to my curriculum vitae I wrote using moderncv package for LaTeX.
+Here a [link (fr)]({{site.baseurl}}/downloads/cv_AlexandreBrochu.pdf) to my curriculum vitae I wrote using moderncv package for LaTeX.
