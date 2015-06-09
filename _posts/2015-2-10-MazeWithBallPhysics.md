@@ -30,6 +30,4 @@ When I started this project, since I already worked with the Unity engine when I
 
 First I wanted to create a simple example of camera control to mimic the effect of moving the entire stage to move the ball. When I succeeded and showed the results to some of my friend, they were quickly interested in the concept so I was happy with the results.
 
-As of now, I still build mechanics and systems to be used in this game so it is still a project that is in progress. If you are interested in trying out the moving mechanics of the game, here is a download link to a windows executable. If you would like to try out this on Linux or Mac, please contact me.
-
-[Download demo]({{site.baseurl}}/downloads/mkb-demo.zip)
+As of now, I still build mechanics and systems to be used in this game so it is still a project that is in progress. If you are interested in trying out the moving mechanics of the game, here is a [download link]({{site.baseurl}}/downloads/mkb-demo.zip) to a windows executable. If you would like to try out this on Linux or Mac, please contact me.
