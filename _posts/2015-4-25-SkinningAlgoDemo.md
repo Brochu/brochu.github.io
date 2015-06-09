@@ -19,8 +19,9 @@ lang: icon-javascript
 langTitle: Javascript
 
 description: asdf
+imgs: false
 images: 
-    img1
-    img2
-    img3
+    - img1
+    - img2
+    - img3
 ---

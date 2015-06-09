@@ -17,10 +17,11 @@ lang: icon-python
 langTitle: Python
 
 description: asdf
+imgs: false
 images: 
-    img1
-    img2
-    img3
+    - http://placehold.it/1000x500
+    - http://placehold.it/1000x500
+    - http://placehold.it/1000x500
 ---
 
 This project was to explore the signal processing domain of computer science. The idea was to take some musical instrument sound as input and process it. The program would then output a human readable file like guitar tablatures for example.

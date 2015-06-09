@@ -10,3 +10,41 @@ layout: default
 <p>Language: <i class="fa {{page.lang}} fa-2x"></i> {{page.langTitle}}</p>
 
 {{content}}
+
+{% if page.imgs != false %}
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    {% for img in page.images %}
+      {% if forloop.index == 1 %}
+        <li data-target="#carousel-example-generic" data-slide-to="{{forloop.index0}}" class="active"></li>
+      {% else %}
+        <li data-target="#carousel-example-generic" data-slide-to="{{forloop.index0}}"></li>
+      {% endif %}
+    {% endfor %}
+  </ol>
+ 
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    {% for img in page.images %}
+      {% if forloop.index == 1 %}
+        <div class="item active">
+            <img src="{{img}}" alt=".." />
+        </div>
+      {% else %}
+      <div class="item">
+        <img src="{{img}}" alt="...">
+      </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+ 
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div> <!-- Carousel -->
+{% endif %}
