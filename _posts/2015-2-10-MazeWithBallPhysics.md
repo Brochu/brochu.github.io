@@ -24,4 +24,12 @@ images:
     img3
 ---
 
-[screenshot]({{site.baseurl}}/downloads/test.txt)
+This project is my first serious try to come up with a complete game with the Unity 3D engine. One of my friend introduced me to Super Monkey Ball a while back and I found the game to be very entertaining. Usually when I find a good game, I try to figure out the mechanics and how it is done technically. I also try to single out why is the game fun and what makes it good. Since I spent a lot of time figuring out those details about this game, I had an idea of how to start my own spin on the base idea.
+
+When I started this project, since I already worked with the Unity engine when I worked at Square Enix Montreal, my choice to use this tool was to improve using Unity at the same time. The good thing is i worked for some time with C# now and I am comfortable with the langauge. This way I can concentrate in learning the good practices in Unity and create an enjoyable experience for players.
+
+First I wanted to create a simple example of camera control to mimic the effect of moving the entire stage to move the ball. When I succeeded and showed the results to some of my friend, they were quickly interested in the concept so I was happy with the results.
+
+As of now, I still build mechanics and systems to be used in this game so it is still a project that is in progress. If you are interested in trying out the moving mechanics of the game, here is a download link to a windows executable. If you would like to try out this on Linux or Mac, please contact me.
+
+[Download demo]({{site.baseurl}}/downloads/mkb-demo.zip)
