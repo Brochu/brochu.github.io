@@ -26,7 +26,7 @@ images:
     - http://placehold.it/1000x500
 ---
 
-This project came to me after studying the abstract concepts behind the skinning algorithms used in the game programming and animated movies industries. I learnt that the concept would also be applicable in an environment in 2D. I am interested to create a simple program with javascript to show how it applies to 2D. At the same time, I would like to make that program interactive so people can see what effects the different properties have on the visual result.
+This project came to me after studying the abstract concepts behind the skinning algorithms used in the game programming and animated movies industries. I learnt that the concept would also be applicable in an environment in 2D. I am interested in creating a simple program with Javascript to show how it applies to 2D. At the same time, I would like to make that program interactive so people can see what effects the different properties have on the visual result.
 
 I am also still interested in working with the canvas object of HTML5. I want to use this media to output the visual result to the screen. One big positive point about canvas is that I can put up this demo online.
 
