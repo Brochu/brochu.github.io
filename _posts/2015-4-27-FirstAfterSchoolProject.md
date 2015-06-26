@@ -30,4 +30,4 @@ I chose to do this project to practice the use of the new HTML5 element 'canvas'
 
 Since this game was made from scratch, I try to keep the graphics simple and done directly with the functions provided by the canvas element. One thing I found while working with those functions is that they approximately work the same as opengl functions. Since I already worked with opengl functions, I was happy to learn that this knowledge was transferable.
 
-Since this project is still in development, I cannot provide a link to try out the full game. However, I can provide a link to a page at the current state. Here is a link to [try out](#) the game.
+Since this project is still in development, I cannot provide a link to try out the full game. However, I will provide a link to test the game when it will be a little more polished.
