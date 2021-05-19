@@ -52,7 +52,7 @@ Edit `/_posts/2014-3-3-Hello-World.md` to publish your first blog post. This [Ma
 2. Clone down your fork `git clone git@github.com:yourusername/yourusername.github.io.git`
 3. Serve the site and watch for markup/sass changes `jekyll serve`
 4. View your website at http://0.0.0.0:4000
-5. Commit any changes and push everything to the master branch of your GitHub user repository. GitHub Pages will then rebuild and serve your website.
+5. Commit any changes and push everything to the master branch of your GitHub user repository. GitHub Pages will then rebuild and serve your website.0
 
 ## Moar!
 
@@ -68,22 +68,22 @@ It covers:
 
 ## Jekyll Now Features
 
-✓ Command-line free _fork-first workflow_, using GitHub.com to create, customize and post to your blog  
-✓ Fully responsive and mobile optimized base theme (**[Theme Demo](http://jekyllnow.com)**)  
-✓ Sass/Coffeescript support using Jekyll 2.0  
-✓ Free hosting on your GitHub Pages user site  
-✓ Markdown blogging  
-✓ Syntax highlighting  
-✓ Disqus commenting  
-✓ Google Analytics integration  
-✓ SVG social icons for your footer  
-✓ 3 http requests, including your avatar  
+✓ Command-line free _fork-first workflow_, using GitHub.com to create, customize and post to your blog
+✓ Fully responsive and mobile optimized base theme (**[Theme Demo](http://jekyllnow.com)**)
+✓ Sass/Coffeescript support using Jekyll 2.0
+✓ Free hosting on your GitHub Pages user site
+✓ Markdown blogging
+✓ Syntax highlighting
+✓ Disqus commenting
+✓ Google Analytics integration
+✓ SVG social icons for your footer
+✓ 3 http requests, including your avatar
 
-✘ No installing dependancies  
-✘ No need to set up local development  
-✘ No configuring plugins  
-✘ No need to spend time on theming  
-✘ More time to code other things ... wait ✓!  
+✘ No installing dependancies
+✘ No need to set up local development
+✘ No configuring plugins
+✘ No need to spend time on theming
+✘ More time to code other things ... wait ✓!
 
 ## Questions?
 
