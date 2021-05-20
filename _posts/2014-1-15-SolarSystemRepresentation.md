@@ -19,11 +19,11 @@ langTitle: C++
 
 description: asdf
 imgs: true
-images: 
-    - /images/SolarSystem_1.png
-    - /images/SolarSystem_2.png
-    - /images/SolarSystem_3.png
-    - /images/SolarSystem_4.png
+images:
+    - /images/projs/SolarSystem_1.png
+    - /images/projs/SolarSystem_2.png
+    - /images/projs/SolarSystem_3.png
+    - /images/projs/SolarSystem_4.png
 ---
 
 This project was done while I was in a rendering course at University. With that project, we had to practice using OpenGL (using transparent textures, camera positioning and code structure) to render the solar system. It is possible to interact with the 3D rendered system by selecting a planet to focus on, zooming in and out and rotate the camera around the focused planet.
