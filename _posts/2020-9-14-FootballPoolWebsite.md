@@ -11,6 +11,8 @@ sourceTitle: Personal Project
 
 tools:
     Visual Studio Code: VSCode_Logo.svg
+    Chrome: ChromeIcon.svg
+    Firefox: FirefoxIcon.svg
 
 lang: icon-ruby-on-rails-alt
 langTitle: Ruby on Rails
