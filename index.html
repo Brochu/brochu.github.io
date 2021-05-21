@@ -4,19 +4,21 @@ layout: default
 
 <div class="jumbotron">
     <h1>Hello !</h1>
-    <p>Hi, my name is Alexandre Brochu. I have been studying computer programming / computer science since high school and have been interested in game development for some time now. I currently work on game projects on my own while seeking a job in the domain.</p>
+    <p>Hi, my name is Alexandre Brochu. I have been studying computer programming / computer science since high school and have been interested in game development for some time now. I currently work in game development full-time and on my own projects while seeking more experience in the programming domain.</p>
     <p><a class="btn btn-lg btn-primary" href="{{ site.baseurl }}/about" role="button">Learn More &raquo;</a></p>
 
     <p>Here's a small website for me to put up information about those projects so people can have an idea of what I am working on. Demos, screenshots and download links should be available for you to see or try the different games.</p>
-    <p>Enough text, here are some links to some of the projects I am working on</p>
+    <p>Enough for the introduction, here are some links to some of the projects I am working on</p>
 </div>
 
 <div class="row">
   {% assign projects = site.posts | sort:"status" %}
   {% for post in projects %}
     {% if post.toShow != false %}
+    {% capture mdCycle %}{% cycle '', '', '', 'md-clear' %}{% endcapture %}
+    {% capture smCycle %}{% cycle '', 'sm-clear' %}{% endcapture %}
 
-      <div class="col-sm-6 col-md-4">
+      <div class="col-xs-12 col-sm-6 col-md-3">
         <div class="panel panel-info">
 
         <div class="panel-heading">{{ post.title }}</div>
@@ -43,6 +45,13 @@ layout: default
         </div>
         </div>
       </div>
+
+      {% if mdCycle == 'md-clear' %}
+        <div class="clearfix visible-md-block visible-lg-block"></div>
+      {% endif %}
+      {% if smCycle == 'sm-clear' %}
+        <div class="clearfix visible-sm-block"></div>
+      {% endif %}
 
     {% endif %}
   {% endfor %}
