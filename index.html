@@ -1,54 +1,49 @@
 ---
 layout: default
 ---
-<div class="shortPres">
+
+<div class="jumbotron">
+    <h1>Hello !</h1>
     <p>Hi, my name is Alexandre Brochu. I have been studying computer programming / computer science since high school and have been interested in game development for some time now. I currently work on game projects on my own while seeking a job in the domain.</p>
+    <p><a class="btn btn-lg btn-primary" href="{{ site.baseurl }}/about" role="button">Learn More &raquo;</a></p>
 
     <p>Here's a small website for me to put up information about those projects so people can have an idea of what I am working on. Demos, screenshots and download links should be available for you to see or try the different games.</p>
-
-    <p>For more info about me, please visit the <a href="/about">about page</a></p>
-
-    <p>Here is a list of what I have been working on lately : </p>
+    <p>Enough text, here are some links to some of the projects I am working on</p>
 </div>
 
-<div class="projects">
+<div class="row">
   {% assign projects = site.posts | sort:"status" %}
   {% for post in projects %}
     {% if post.toShow != false %}
-    <article class="{{post.class}}">
-        <span class="title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span>
 
-        <div class="tags">
-        <span class="tag"><i class="fa {{post.type}} fa-2x" title="{{post.typeTitle}}"></i></span>
-        <span class="tag"><i class="fa {{post.source}} fa-2x" title="{{post.sourceTitle}}"></i></span>
-        <span class="tag"><i class="fa {{post.lang}} fa-2x" title="{{post.langTitle}}"></i></span>
+      <div class="col-sm-6 col-md-4">
+        <div class="panel panel-info">
 
-        {% for tool in post.tools %}
-        <span class="tag"><img src="{{site.baseurl}}/images/{{tool[1]}}" title="{{tool[0]}}" /></span>
-        {% endfor %}
+        <div class="panel-heading">{{ post.title }}</div>
+        <div class="panel-body">
+          <span class="tag"><i class="fa {{  post.type }} fa-2x" title="{{ post.typeTitle }}"></i></span>
+          <span class="tag"><i class="fa {{  post.source }} fa-2x" title="{{ post.sourceTitle }}"></i></span>
+          <span class="tag"><i class="fa {{  post.lang }} fa-2x" title="{{ post.langTitle }}"></i></span>
+
+          {% for tool in post.tools %}
+            <span class="tag"><img src="{{site.baseurl}}/images/logos/{{tool[1]}}" title="{{tool[0]}}" /></span>
+          {% endfor %}
+          <hr/>
+
+          {% if post.status == 1 %}
+          <p><span class="label label-success">Complete</span><p>
+          {% elsif post.status == 2 %}
+          <p><span class="label label-warning">In Progress</span><p>
+          {% elsif post.status == 3 %}
+          <p><span class="label label-default">Planned</span><p>
+          {% endif %}
+
+          <p>{{ post.description }}<p>
+          <p><a href="{{ site.baseurl }}{{ post.url }}" class="btn btn-primary" role="button">Check out</a></p>
         </div>
+        </div>
+      </div>
 
-        <div class="cb"></div>
-      </article>
     {% endif %}
   {% endfor %}
 </div>
-
-<div class="legend">
-    <span class="lentry" style="background-color: #9F9"></span> Completed Projects
-    <span class="lentry" style="background-color: #F93"></span> In Progress Projects
-    <span class="lentry" style="background-color: #F99"></span> Future Projects
-</div>
-
-<!--<h2>TEST FOR ICONS IN PROJECT LIST, THESE ICONS WILL GIVE FAST INFORMATION ABOUT THE PROJECTS</h2>
-
-<i class="icon-cplusplus" style="font-size:25px;"></i>
-
-<div class="list-group">
-    <a class="list-group-item" href="#"><i class="fa fa-home fa-fw"></i>&nbsp; Home</a><br />
-    <a class="list-group-item" href="#"><i class="fa fa-book fa-fw"></i>&nbsp; Library</a><br />
-    <a class="list-group-item" href="#"><i class="fa fa-pencil fa-fw"></i>&nbsp; Applications</a><br />
-    <a class="list-group-item" href="#"><i class="fa fa-cog fa-fw"></i>&nbsp; Settings</a><br />
-</div>
-
-<img src="{{site.baseurl}}/images/udes-logo.svg" />-->

@@ -1,6 +1,5 @@
 ---
 layout: project
-class: Past
 status: 1
 title: Guitar Live Convert
 
@@ -17,11 +16,6 @@ lang: icon-python
 langTitle: Python
 
 description: asdf
-imgs: false
-images: 
-    - http://placehold.it/1000x500
-    - http://placehold.it/1000x500
-    - http://placehold.it/1000x500
 ---
 
 This project was to explore the signal processing domain of computer science. The idea was to take some musical instrument sounds as input and process it. The program would then output a human readable file like guitar tablatures for example.

@@ -1,6 +1,5 @@
 ---
-layout: project
-class: Past
+layout: project-carousel
 status: 1
 title: Solar System Representation
 
@@ -18,7 +17,6 @@ lang: icon-cplusplus
 langTitle: C++
 
 description: asdf
-imgs: true
 images:
     - /images/projs/SolarSystem_1.png
     - /images/projs/SolarSystem_2.png

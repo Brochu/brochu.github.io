@@ -1,6 +1,5 @@
 ---
-layout: project
-class: Past
+layout: project-carousel
 status: 1
 title: Parallel Fractal Rendering
 
@@ -17,7 +16,6 @@ lang: icon-csharp
 langTitle: C#
 
 description: asdf
-imgs: true
 images:
     - /images/projs/FractalProject_1.png
     - /images/projs/FractalProject_2.png

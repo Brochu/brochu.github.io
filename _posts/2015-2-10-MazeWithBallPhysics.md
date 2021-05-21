@@ -1,6 +1,5 @@
 ---
 layout: project
-class: Current
 status: 2
 title: Maze with Ball Physics
 
@@ -18,11 +17,6 @@ lang: icon-csharp
 langTitle: C#
 
 description: asdf
-imgs: false
-images: 
-    - img1
-    - img2
-    - img3
 ---
 
 This project is my first serious try to come up with a complete game with the Unity 3D engine. One of my friends introduced me to Super Monkey Ball a while back and I found the game to be very entertaining. Usually when I find a good game, I try to figure out the mechanics and how it is done technically. I also try to single out why is the game fun and what makes it good. Since I spent a lot of time figuring out those details about this game, I had an idea of how to start my own spin on the base idea.

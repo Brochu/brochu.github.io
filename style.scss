@@ -25,7 +25,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  //max-width: 740px;
   padding: 0 10px;
   width: 100%;
 }
@@ -212,13 +212,13 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  //margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 18px;
 
   @include mobile {
     float: none;
-    margin-top: 9px;
+    //margin-top: 9px;
     display: block;
     font-size: 16px;
   }
@@ -337,6 +337,10 @@ footer {
   width: 32px;
   padding: 0px 10px;
   margin: 0px 10px;
+}
+
+.post-content {
+  padding-top: 45px;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
