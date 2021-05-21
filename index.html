@@ -15,10 +15,11 @@ layout: default
   {% assign projects = site.posts | sort:"status" %}
   {% for post in projects %}
     {% if post.toShow != false %}
-    {% capture mdCycle %}{% cycle '', '', '', 'md-clear' %}{% endcapture %}
+    {% capture lgCycle %}{% cycle '', '', '', 'lg-clear' %}{% endcapture %}
+    {% capture mdCycle %}{% cycle '', '', 'md-clear' %}{% endcapture %}
     {% capture smCycle %}{% cycle '', 'sm-clear' %}{% endcapture %}
 
-      <div class="col-xs-12 col-sm-6 col-md-3">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
         <div class="panel panel-info">
 
         <div class="panel-heading">{{ post.title }}</div>
@@ -46,8 +47,11 @@ layout: default
         </div>
       </div>
 
+      {% if lgCycle == 'lg-clear' %}
+        <div class="clearfix visible-lg-block"></div>
+      {% endif %}
       {% if mdCycle == 'md-clear' %}
-        <div class="clearfix visible-md-block visible-lg-block"></div>
+        <div class="clearfix visible-md-block"></div>
       {% endif %}
       {% if smCycle == 'sm-clear' %}
         <div class="clearfix visible-sm-block"></div>
