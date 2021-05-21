@@ -15,7 +15,7 @@ tools:
 lang: icon-csharp
 langTitle: C#
 
-description: asdf
+description: University project in the scope of the parallel programming class. Here we render fractal formulas with a parallel algorithm.
 images:
     - /images/projs/FractalProject_1.png
     - /images/projs/FractalProject_2.png

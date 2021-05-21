@@ -16,7 +16,7 @@ tools:
 lang: icon-cplusplus
 langTitle: C++
 
-description: asdf
+description: In my first graphics programming class in University, we learned how to use the OpenGL API. This is my last project from this class.
 images:
     - /images/projs/SolarSystem_1.png
     - /images/projs/SolarSystem_2.png
