@@ -28,4 +28,7 @@ All me contact information can be found at the bottom of this page (email addres
 
 ### Curriculum Vitae
 
-Here a [link (fr)]({{site.baseurl}}/downloads/cv_AlexandreBrochu.pdf) to my curriculum vitae I wrote using moderncv package for LaTeX.
+Here are some links to my curriculum vitae I wrote using an AwesomeCV [fork](https://github.com/Brochu/Awesome-CV) from a LateX GitHub project.
+
+- English [here]({{site.baseurl}}/downloads/mycv_en.pdf)
+- Français [ici]({{site.baseurl}}/downloads/mycv_fr.pdf)
