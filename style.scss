@@ -343,6 +343,29 @@ footer {
   padding-top: 45px;
 }
 
+.jumbotron {
+  background-image: url("/images/jumbotron-bg-1.png");
+  background-size: cover;
+}
+
+.jumbotron p {
+    background-color: rgba(255,255,255,0.4);
+    display: inline-block;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.jumbotron h1 {
+background-color: rgba(255,255,255,0.4);
+    display: inline-block;
+    border-radius: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
