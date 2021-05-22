@@ -16,6 +16,7 @@ lang: icon-python
 langTitle: Python
 
 description: To finish my bachelors degree, I needed to complete a project of my choice. This is what came out of this experience.
+toShow: false
 ---
 
 This project was to explore the signal processing domain of computer science. The idea was to take some musical instrument sounds as input and process it. The program would then output a human readable file like guitar tablatures for example.
