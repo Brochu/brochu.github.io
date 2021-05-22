@@ -22,7 +22,7 @@ images:
     - /images/projs/RayTraceDx11_2.png
 ---
 
-While browsing on my Twitter account, I found out about the book available online called `Ray Tracing in One Weekend` by [Peter Shirley](https://twitter.com/Peter_shirley). This book is a very good guide to write a CPU based ray tracer that will produce some images by emulating the physics of light rays boucing in a scene. The result is usually some images with a good realistic look but is not suited for full real time rendering with frame times under 16.67ms.
+While browsing on my Twitter account, I found out about the book available online called [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html) by [Peter Shirley](https://twitter.com/Peter_shirley). This book is a very good guide to write a CPU based ray tracer that will produce some images by emulating the physics of light rays boucing in a scene. The result is usually some images with a good realistic look but is not suited for full real time rendering with frame times under 16.67ms.
 
 While studying in Sherbrooke University, I took one class for photorealistic rendering in which I had to go through the exercice of writing a ray tracer that executes on the CPU. This renderer had some interesting features:
 
