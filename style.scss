@@ -360,10 +360,20 @@ footer {
 
 .jumbotron h1 {
 background-color: rgba(255,255,255,0.4);
-    display: inline-block;
-    border-radius: 5px;
-    padding-right: 15px;
-    padding-left: 15px;
+  display: inline-block;
+  border-radius: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+  margin: 0 auto;
+}
+
+ @media screen and (min-width: 1361px) {
+  .jumbotron p {
+    margin-right: 50%;
+  }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
