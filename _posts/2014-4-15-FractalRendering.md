@@ -2,6 +2,7 @@
 layout: project-carousel
 status: 1
 title: Parallel Fractal Rendering
+order: 9
 
 type: fa-cogs
 typeTitle: Demo

@@ -2,6 +2,7 @@
 layout: project
 status: 1
 title: Hitman Sniper (Square Enix Mtl)
+order: 3
 
 type: fa-gamepad
 typeTitle: Game

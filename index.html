@@ -12,7 +12,7 @@ layout: default
 </div>
 
 <div class="row">
-  {% assign projects = site.posts | sort:"status" %}
+  {% assign projects = site.posts | sort:"order" %}
   {% for post in projects %}
     {% if post.toShow != false %}
     {% capture lgCycle %}{% cycle '', '', '', 'lg-clear' %}{% endcapture %}

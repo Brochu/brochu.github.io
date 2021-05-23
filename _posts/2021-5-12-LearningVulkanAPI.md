@@ -2,6 +2,7 @@
 layout: project-carousel
 status: 2
 title: Learning Vulkan Graphics API
+order: 2
 
 type: fa-cogs
 typeTitle: Demo
