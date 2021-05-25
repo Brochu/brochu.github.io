@@ -21,6 +21,8 @@ langTitle: C++
 description: Since I gained a lot of interest in graphics programming, I wanted to make an effort to learn the more recent graphics APIs. I chose to try my hand at Vulkan
 images:
     - /images/projs/LearningVulkan_1.png
+    - /images/projs/LearningVulkan_2.png
+    - /images/projs/LearningVulkan_3.png
 ---
 
 I started to develop an interest in graphics programming when I was in university when I took my initial OpenGL course. I really liked having some visual feedback to the code I was writing. I also liked the aspect of real-time programming where you need to keep your logic optimized and short so it can run within 16.67ms for a good refresh rate.
@@ -47,4 +49,6 @@ This tutorial helped me a lot to realize just how many steps there are to go fro
 - How multisampling can happen in Vulkan applications
 - How to use synchronization objects (semaphores, fences) within a graphic pipeline or between GPU and CPU.
 
-Here is my first rendered surface with the Vulkan graphics API:
+At first, to make sure everything was in order, I rendered a triangle with some color interpolation as they did in the tutorial I was following. After I was able to get everything working, I changed the triangle to a full screen quad to be able to test some pixel shader implementation (first one being mandlebrot set render)
+
+Here are some screenshots of the rendered results I was able to get:
