@@ -27,6 +27,11 @@ images:
     - /images/projs/LearningVulkan_5.png
     - /images/projs/LearningVulkan_6.png
     - /images/projs/LearningVulkan_7.png
+    - /images/projs/LearningVulkan_8.png
+    - /images/projs/LearningVulkan_9.png
+    - /images/projs/LearningVulkan_10.png
+    - /images/projs/LearningVulkan_11.png
+    - /images/projs/LearningVulkan_12.png
 ---
 
 I started to develop an interest in graphics programming when I was in university when I took my initial OpenGL course. I really liked having some visual feedback to the code I was writing. I also liked the aspect of real-time programming where you need to keep your logic optimized and short so it can run within 16.67ms for a good refresh rate.
@@ -54,5 +59,7 @@ This tutorial helped me a lot to realize just how many steps there are to go fro
 - How to use synchronization objects (semaphores, fences) within a graphic pipeline or between GPU and CPU.
 
 At first, to make sure everything was in order, I rendered a triangle with some color interpolation as they did in the tutorial I was following. After I was able to get everything working, I changed the triangle to a full screen quad to be able to test some pixel shader implementation (first one being mandelbrot set render)
+
+Quick Update: I added some descriptor set that I bound to the fragment shader stage to be able to control the position and the zoom of the rendered mandelbrot set! Some new screenshots added
 
 Here are some screenshots of the rendered results I was able to get:
