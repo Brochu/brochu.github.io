@@ -1,7 +1,7 @@
 ---
 layout: project-carousel
-status: 2
-title: Learning Vulkan Graphics API
+status: 1
+title: Vulkan Graphics API Online Tutorial
 order: 2
 
 type: fa-cogs
@@ -61,5 +61,7 @@ This tutorial helped me a lot to realize just how many steps there are to go fro
 At first, to make sure everything was in order, I rendered a triangle with some color interpolation as they did in the tutorial I was following. After I was able to get everything working, I changed the triangle to a full screen quad to be able to test some pixel shader implementation (first one being mandelbrot set render)
 
 Quick Update: I added some descriptor set that I bound to the fragment shader stage to be able to control the position and the zoom of the rendered mandelbrot set! Some new screenshots added
+
+Other Update: I finished the online tutorial that I was following. Went through steps to make sure we are double buffering frames (One frame presenting, one being drawn). Started looking at some other projects to try Vullkan with.
 
 Here are some screenshots of the rendered results I was able to get:
