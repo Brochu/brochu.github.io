@@ -13,7 +13,7 @@ sourceTitle: Work Project
 tools:
     Visual Studio: VS2013Icon.svg
     Unreal Engine 4: UnrealEngine_Logo.svg
-    Vulkan: Vulkan_Logo.svg
+    Vulkan: Vulkan_logo.svg
 
 lang: icon-cplusplus
 langTitle: C++

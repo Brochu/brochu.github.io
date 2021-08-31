@@ -13,7 +13,7 @@ sourceTitle: Personal Project
 tools:
     Neovim: Neovim_logo.svg
     CMake: Cmake_Logo.svg
-    Vulkan: Vulkan_Logo.svg
+    Vulkan: Vulkan_logo.svg
 
 lang: icon-cplusplus
 langTitle: C++
