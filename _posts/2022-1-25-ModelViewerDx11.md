@@ -1,7 +1,7 @@
 ---
 layout: project
 status: 2
-title: Golf Terrain Highlights Widget (w/ Dx11)
+title: Test bench renderer with Dx11
 order: 2
 
 type: fa-cogs
