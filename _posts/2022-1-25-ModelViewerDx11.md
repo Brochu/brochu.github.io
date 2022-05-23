@@ -39,3 +39,17 @@ I am still in the process of writing the base of the renderer as of now, but I p
 * and more to come
 
 Please keep up with my updates to this project in the future.
+
+| Update from 2022-5-22 |
+
+When I first wanted to be able to load model information from OBJ files, I wrote a very simple function to read and parse an OBJ file and return the vertex positions, UVs and normals. I then use this data as a vertex buffer that I upload on GPU for renderning.
+As I was looking on the internet to download more example models, I noticed that some OBJ file will also contain some information related to materials (like textures used for certain meshes). I think it would be interesting to rework my renderer logic to be able to handle multiple meshes as well as some texturing. In order to do this, I will need to work on a couple details:
+
+* Reading the vertex data like before but store meshes independently
+    * Return an array of meshes to render one at a time to the renderer
+* Read the material file if one is found
+* For every mesh, find out the material that should be used
+* List textures to be uploaded to GPU memory per meshes
+* When rendering, we need to bind the correct texture
+
+I would see this feature as a nice to have for now, but I would be curious to see what kind of work in needed to handle these situations.

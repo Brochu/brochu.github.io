@@ -1,6 +1,6 @@
 ---
 layout: project-carousel
-status: 2
+status: 1
 title: Maze with Ball Physics
 order: 5
 
