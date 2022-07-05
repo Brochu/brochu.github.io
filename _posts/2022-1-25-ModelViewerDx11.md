@@ -53,3 +53,13 @@ As I was looking on the internet to download more example models, I noticed that
 * When rendering, we need to bind the correct texture
 
 I would see this feature as a nice to have for now, but I would be curious to see what kind of work in needed to handle these situations.
+
+| Update from 2022-7-05 |
+
+As of now, I am working on adding a shadow mapping pass to the renderer. I am currently adding a directional light only since this is going to simplify the implementation. My goal with this task is that I understand better the base steps needed to achieve this visual effect in computer graphics renderer.
+
+With the new knowledge built from this exercice, I can then understand better the challenges of adding different light types to shaodw mapping algorithms (points, spots) and different more involved algorithm for rendering shadows (variance shadow map, cascading shadow maps)
+
+I think that after I am able to render shadows properly, I will consider this project to be completed for now as I am curious to move onto different topics in the computer graphics sphere. I will make sure to update this website with my next project as well.
+
+Stay tuned for shadows and screenshots to close this project of Dx11 model renderer.
