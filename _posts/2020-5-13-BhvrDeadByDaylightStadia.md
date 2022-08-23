@@ -2,7 +2,7 @@
 layout: project
 status: 1
 title: Dead By Daylight (BHVR)
-order: 0
+order: 2
 
 type: fa-gamepad
 typeTitle: Game

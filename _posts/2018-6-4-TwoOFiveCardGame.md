@@ -2,7 +2,7 @@
 layout: project-carousel
 status: 1
 title: Two-O-Five
-order: 4
+order: 5
 
 type: fa-gamepad
 typeTitle: Game
