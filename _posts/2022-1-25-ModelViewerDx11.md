@@ -2,7 +2,7 @@
 layout: project
 status: 2
 title: Test bench renderer with Dx11
-order: 2
+order: 0
 
 type: fa-cogs
 typeTitle: Demo
@@ -20,6 +20,9 @@ langTitle: C++
 
 description: While reading papers on different rendering techniques over the course of my progress in graphics programming, I've found some that I would like to try and implement. This project is a very simple renderer to use as a base for these tests.
 images:
+    - /images/projs/Dx11ModelViewer_1.png
+    - /images/projs/Dx11ModelViewer_2.png
+    - /images/projs/Dx11ModelViewer_3.png
 ---
 
 The goal of this project is to setup an environment where I can implement some rendering techniques in a Dx11 engine that I setup myself. For now I am thinking of being able to select a model to render from an OBJ file (I did write a very simple OBJ parser for this project).
