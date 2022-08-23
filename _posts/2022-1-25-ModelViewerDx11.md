@@ -62,4 +62,10 @@ With the new knowledge built from this exercice, I can then understand better th
 
 I think that after I am able to render shadows properly, I will consider this project to be completed for now as I am curious to move onto different topics in the computer graphics sphere. I will make sure to update this website with my next project as well.
 
-Stay tuned for shadows and screenshots to close this project of Dx11 model renderer.
+| Update from 2022-8-23 |
+
+Quick update this time to mention two things. I recently updated this project to use a better algorithm to load the 3d model data used to render in the application. Before, I wasn't using any index buffers when rendering. I was simply duplicating every vertex each time it appeared in a triangle. This is obviously wasteful. I updated my OBJ file loader so that it will create a list of all the unique vertices found when loading the model data and then create an index list that will refer to the vertices already in memory. We then avoid vertex duplication. I am also using the DrawIndexed calls from the Dx11 API now to handle this new feature.
+
+Another really simple update I made is that I am now able to load an OBJ file that has multiple sub-meshes contained in them. In order to simplify the rendering afterwards, I also added a function to merge all the sub-meshes in one so I only have to upload one vertex and index buffer pair to the GPU. This also lets me use models that I found online for my tests that were taken from one of my favorite games of all time: Super Monkey Ball 2 for the Nintendo Gamecube.
+
+I will look into shadow maps for this project, I was just sidetracked by other features that I thought would look good and would be interesting to implement! See you next update.
