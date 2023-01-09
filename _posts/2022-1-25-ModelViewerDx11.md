@@ -23,6 +23,8 @@ images:
     - /images/projs/Dx11ModelViewer_1.png
     - /images/projs/Dx11ModelViewer_2.png
     - /images/projs/Dx11ModelViewer_3.png
+    - /images/projs/Dx11ModelViewer_4.png
+    - /images/projs/Dx11ModelViewer_5.png
 ---
 
 The goal of this project is to setup an environment where I can implement some rendering techniques in a Dx11 engine that I setup myself. For now I am thinking of being able to select a model to render from an OBJ file (I did write a very simple OBJ parser for this project).
