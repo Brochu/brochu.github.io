@@ -46,22 +46,22 @@ For this project, I also did not start from an empty project. Here is the sample
 
 Like I mentioned earlier, the first order of buisiness is to bring the previous project's features here:
 
-    * Loading models
-    * Create VertexBuffers(views) as well as IndexBuffers(views)
-    * Load textures based on the mtllib file linked to the model (.obj)
-    * Upload texture data to GPU memory
-    * Render models with one light source in the scene
-    * Debug controls to move camera, view parameters and light position
+* Loading models
+* Create VertexBuffers(views) as well as IndexBuffers(views)
+* Load textures based on the mtllib file linked to the model (.obj)
+* Upload texture data to GPU memory
+* Render models with one light source in the scene
+* Debug controls to move camera, view parameters and light position
 
 After these features are in and stable, Here are some ideas for future developments that could happen in the lifetime of this project :
 
-    * Try and organize resources in one big heap allocation (w/ CreatePlacedResource calls)
-    * Idem with DescriptorHeaps
-    * Be able to change the model .obj file at runtime
-        * Clear out the CPU and GPU memory for the old model.
-        * Load the new data for the new model to render.
-        * Re-upload all needed data to GPU.
-        * Start rendering again.
-    * Try to build TopLevel/BottomLevel acceleration structures to test the DXR api (HWRT)
-    * Implement some simple RT shadows with MissShaders
+* Try and organize resources in one big heap allocation (w/ CreatePlacedResource calls)
+* Idem with DescriptorHeaps
+* Be able to change the model .obj file at runtime
+    * Clear out the CPU and GPU memory for the old model.
+    * Load the new data for the new model to render.
+    * Re-upload all needed data to GPU.
+    * Start rendering again.
+* Try to build TopLevel/BottomLevel acceleration structures to test the DXR api (HWRT)
+* Implement some simple RT shadows with MissShaders
 
