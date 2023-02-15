@@ -21,6 +21,13 @@ langTitle: C++
 description: Simple model viewer renderer using DirectX 12 that I implemented in order to get familiar with more modern rendering APIs used in game engines and to run simulations. My goals were to re-implement my simple DirectX 11 model viewer with a newer version of the API as well as adding some DirectX 12 specific features afterwards.
 images:
     - /images/projs/DirectX12Renderer_1.png
+    - /images/projs/DirectX12Renderer_2.png
+    - /images/projs/DirectX12Renderer_3.png
+    - /images/projs/DirectX12Renderer_4.png
+    - /images/projs/DirectX12Renderer_5.png
+    - /images/projs/DirectX12Renderer_6.png
+    - /images/projs/DirectX12Renderer_7.png
+    - /images/projs/DirectX12Renderer_8.png
 ---
 
 After working on a simple renderer in DirectX 11, I started to be curious of the different features that are available in DirectX 12. I also wanted to keep up with the more recent render APIs that are used in Game Engines and simulations nowadays.
