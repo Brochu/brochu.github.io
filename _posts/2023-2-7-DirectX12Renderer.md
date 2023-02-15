@@ -46,12 +46,12 @@ For this project, I also did not start from an empty project. Here is the sample
 
 Like I mentioned earlier, the first order of buisiness is to bring the previous project's features here:
 
-* Loading models
-* Create VertexBuffers(views) as well as IndexBuffers(views)
-* Load textures based on the mtllib file linked to the model (.obj)
-* Upload texture data to GPU memory
-* Render models with one light source in the scene
-* Debug controls to move camera, view parameters and light position
+* [X]Loading 3d model files with the help of Assimp, extract the information we need
+* [X]Create VertexBuffers(+view) as well as IndexBuffers(+view)
+* [X]Render models with one light source in the scene
+* [X]Debug controls to move camera, view parameters and light position
+* [X]Get the list of textures needed from the Assimp scene
+* [ ]Upload texture data to GPU memory
 
 After these features are in and stable, Here are some ideas for future developments that could happen in the lifetime of this project :
 
@@ -65,3 +65,6 @@ After these features are in and stable, Here are some ideas for future developme
 * Try to build TopLevel/BottomLevel acceleration structures to test the DXR api (HWRT)
 * Implement some simple RT shadows with MissShaders
 
+As of 2023-02-15, I made a lot of progress bringing features from the previous DirectX 11 version of the model renderer over to the new DirectX 12 version. I currently am able to render the geometry of 3d model files without textures and lit with a single point light placed in the scene. The position of the point light can be changed through the debug menu. In order to place the vertices and indices into GPU memory, we are using only one allocation with offsets for both buffers in the upload heap. Unfortunately, we are still using separate allocations in the default heap afterwards. I will be changing this to also use only one allocation in default heap later.
+
+My next steps is to look into how to handle texture data upload and access to shaders. I would like to be able to use only one allocation and sub-allocate resources myself for the different textures needed for the selected model. Since I know all the textures that are going to be needed in advance, I would like to bind a SRV array to the pixel shader and use an index from a constant buffer to index in this array and pick the right texture to sample for a given draw call. Need some work on the Root Signature used in order to make this happen after the texture data upload is done.
