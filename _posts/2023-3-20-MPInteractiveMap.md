@@ -28,6 +28,7 @@ images:
     - /images/projs/MPInteractiveMap_4.png
     - /images/projs/MPInteractiveMap_5.png
     - /images/projs/MPInteractiveMap_6.png
+    - /images/projs/MPInteractiveMap_7.png
 ---
 
 Recently, the Metroid Prime Remasted was release on Nintendo Switch. Being a fan of the game originally released on the Gamecube, I picked it up so I could relive Samus' first adventure in 3D.
@@ -51,3 +52,7 @@ In the following screenshots, I show what the different areas of the game look l
 * Phazon Mines
 * Magmoor Caverns
 * Impact Crater
+
+-------------------------------------------------
+
+Icons rendering was added as a first version. The result is a little bit rough but it does show the right data for the users. For now I would like to integrate ImGui library in the project to control some settings at runtime as a next step for this project.
