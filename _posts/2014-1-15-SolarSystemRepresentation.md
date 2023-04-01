@@ -2,7 +2,7 @@
 layout: project-carousel
 status: 1
 title: Solar System Representation
-order: 7
+order: 11
 
 type: fa-cogs
 typeTitle: Demo

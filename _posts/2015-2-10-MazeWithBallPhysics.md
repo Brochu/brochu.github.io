@@ -2,7 +2,7 @@
 layout: project-carousel
 status: 1
 title: Maze with Ball Physics
-order: 5
+order: 9
 
 type: fa-gamepad
 typeTitle: Game

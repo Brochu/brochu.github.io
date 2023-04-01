@@ -2,7 +2,7 @@
 layout: project-carousel
 status: 1
 title: Ray Tracer - DirectX 11 version
-order: 1
+order: 3
 
 type: fa-cogs
 typeTitle: Demo

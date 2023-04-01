@@ -2,7 +2,7 @@
 layout: project-carousel
 status: 2
 title: Metroid Prime - Interactive Map
-order: 1
+order: 0
 
 type: fa-cogs
 typeTitle: Demo

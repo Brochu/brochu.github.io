@@ -2,7 +2,7 @@
 layout: project-carousel
 status: 2
 title: DirectX 12 Model Viewer
-order: 0
+order: 1
 
 type: fa-cogs
 typeTitle: Demo

@@ -2,7 +2,7 @@
 layout: project
 status: 2
 title: Golf Terrain Highlights Widget (w/ Dx11)
-order: 3
+order: 6
 
 type: fa-cogs
 typeTitle: Demo

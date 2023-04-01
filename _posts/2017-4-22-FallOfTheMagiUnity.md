@@ -2,7 +2,7 @@
 layout: project-carousel
 status: 1
 title: Fall of The Magi
-order: 8
+order: 12
 
 type: fa-gamepad
 typeTitle: Game
