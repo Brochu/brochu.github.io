@@ -1,6 +1,6 @@
 ---
 layout: project-carousel
-status: 2
+status: 1
 title: Metroid Prime - Interactive Map
 order: 0
 
@@ -56,3 +56,13 @@ In the following screenshots, I show what the different areas of the game look l
 -------------------------------------------------
 
 Icons rendering was added as a first version. The result is a little bit rough but it does show the right data for the users. For now I would like to integrate ImGui library in the project to control some settings at runtime as a next step for this project.
+
+-------------------------------------------------
+
+###Update as of March 31st, 2023
+
+I was able to polish the icons rendering step a little bit more. I think that with this update, I am at a very good state for this project. There are surely some logic in this project that is far from ideal for the performance side of things.
+
+* Icon texture data upload process: There could be ways to upload multiple textures in one block
+* The way the icons vertices is generated: As of now, the vertex data for icons on the map is aligned and generated on the CPU side. This would be better suited for a compute pass on the GPU where this data could be generated faster. This would also let us setup the draw data in a buffer located in device local memory and then use DrawIndirect(...) for even better performance.
+* The controls: I was not able to have the logic apply the translation motions after the rotations when aligning the translation based off of the view space. I am not sure what I was missing to make this work. I might go back and try again to have better controls later on
