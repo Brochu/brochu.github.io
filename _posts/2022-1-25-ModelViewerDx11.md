@@ -41,6 +41,7 @@ I am still in the process of writing the base of the renderer as of now, but I p
     * Variance shadow maps
 * Bloom
 * Depth + Stencil visual effects
+* Cloud rendering / simulation
 * and more to come
 
 Please keep up with my updates to this project in the future.
@@ -74,3 +75,19 @@ Quick update this time to mention two things. I recently updated this project to
 Another really simple update I made is that I am now able to load an OBJ file that has multiple sub-meshes contained in them. In order to simplify the rendering afterwards, I also added a function to merge all the sub-meshes in one so I only have to upload one vertex and index buffer pair to the GPU. This also lets me use models that I found online for my tests that were taken from one of my favorite games of all time: Super Monkey Ball 2 for the Nintendo Gamecube.
 
 I will look into shadow maps for this project, I was just sidetracked by other features that I thought would look good and would be interesting to implement! See you next update.
+
+| Update from 2023-9-30 |
+
+I came back to work on this project recently. My first goal was to rework the rendering logic in different files so different sections of the project are easier to find. I landed on adding these files to the project to split the rendering work:
+
+* UploadPass.h / UploadPass.cpp
+    * Upload texture and model data to GPU memory
+* ModelRenderPass.h / ModelRenderPass.cpp
+    * Bind vertex buffers, index buffers and textures needed 
+    * Record all model's draw calls
+* UIRenderPass.h / UIRenderPass.cpp
+    * Call all functions from IMGui library to render all the debug UI
+* SmokeRenderPass.h / SmokeRenderPass.cpp
+    * Started working on cloud rendering using raymarching
+
+I hope to have new screenshots soon showing the progress made on the smoke / cloud rendering. See you next update.
