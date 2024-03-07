@@ -1,7 +1,7 @@
 ---
 layout: project
 status: 2
-title: Metroid Prime - Interactive Map
+title: Metroid Prime - Explorer
 order: 0
 
 type: fa-cogs
