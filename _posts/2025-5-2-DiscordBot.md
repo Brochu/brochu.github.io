@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: project-carousel
 status: 1
 title: Football - Discord Bot
 order: 7
